@@ -31,7 +31,7 @@ export function GraphLayoutForm() {
       <div className="m-auto max-w-full min-h-fit flex flex-col bg-white rounded-2xl p-3 gap-5 mt-3 xl:max-w-[100%]">
         {/* fix the height of the form container to be % or something else to be dynamically adjust its size*/}
         {/* first form to handle the general properties of the graph */}
-        <div className="w-[90%] h-[90%] m-auto border-none flex justify-around items-center gap-2">
+        <div className="m-auto border-none flex justify-around items-center gap-2">
           <div className="w-full flex">
             <button
               onClick={applyCircularLayout}

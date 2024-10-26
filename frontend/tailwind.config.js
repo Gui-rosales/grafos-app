@@ -1,10 +1,6 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: [
-    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
-  ],
+export default {
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
       backgroundImage: {
@@ -13,6 +9,21 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
     },
+    colors: {
+      primary: '#444444',
+      white: '#ffffff',
+      black: '#000000',
+      secondary: '#A9A8A8',
+      third: '#B1ABAB',
+      label: '#025E7B',
+      inputBorder: '#02394A',
+      applyButtonPrimary: '#0074D9',
+      applyButtonSecondary: '#A7C6E4',
+      submitButtonPrimary: '#AED581',
+      submitButtonSecondary: '#C7E5A4',
+      cancelButtonPrimary: '#FFB74D',
+      cancelButtonSecondary: '#FFC97A',
+    },
   },
   plugins: [],
-}
+};

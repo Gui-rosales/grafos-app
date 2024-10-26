@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:8008',
+  baseURL: 'https://495c-2804-26d4-201e-3400-8139-c21-76e9-9c9c.ngrok-free.app',
 });
 
 //request on graph route
